@@ -1,6 +1,7 @@
 import './App.css'
 import About from './Components/About'
 import Contact from './Components/Contact'
+import Education from './Components/Education'
 import Experieces from './Components/Experieces'
 import Hero from './Components/Hero'
 import NavBar from './Components/NavBar'
@@ -8,7 +9,7 @@ import ParticlesComponent from './Components/ParticlesComponent'
 import Projects from './Components/Projects'
 import Technologies from './Components/Technologies'
 
-function App() {
+export default function App() {
 
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased slec selection:bg-cyan-300 selection:text-cyan-900'>
@@ -23,10 +24,9 @@ function App() {
       <Technologies/>
       <Experieces/>
       <Projects/>
+      <Education/>
       <Contact/>
       </div>
     </div>
   )
 }
-
-export default App
