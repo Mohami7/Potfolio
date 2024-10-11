@@ -34,29 +34,38 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    liveLink: "https://you-shop-ecom.netlify.app/", // Correct link
+    githubLink: "https://github.com/mohamedibaroui/you-shop-pro" // Correct GitHub link
   },
   {
     title: "Movie Website",
     image: Movie,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["React", "TailwinCss", "Redux"],
+      "A movie browsing website with features like search, filtering, and movie details using public APIs.",
+    technologies: ["React", "TailwindCSS", "Redux"],
+    liveLink: "https://66868b1fe2afbdddb55d0ea2--cerulean-smakager-fa174d.netlify.app/", // Add a valid live link
+    githubLink: "https:github.com/Mohami7/Cimaclub" // Add a valid GitHub link
   },
   {
     title: "Edusys",
     image: Edusys,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "An educational system platform for managing student information and educational content.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    liveLink: false,
+    githubLink: "https://github.com/mohamedibaroui/projetschools" // Add a valid GitHub link
   },
   {
     title: "Portfolio",
     image: Portfolio,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "MySQL"],
+    liveLink: "https://my-portfolio.netlify.app/", // Add a valid live link
+    githubLink: "https://github.com/yourgithubusername/portfolio-website" // Add a valid GitHub link
   },
 ];
+
 
 export const EDUCATION = [
   {

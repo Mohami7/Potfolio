@@ -32,14 +32,14 @@ export default function Projects() {
 
               {/* Buttons Section placed below the description */}
               <div className='flex space-x-4 mt-4'>
-                <button className='flex items-center rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-700'>
+                <a href={project.liveLink} target='_blank' rel='noopener noreferrer' className='flex items-center rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-700'>
                   <FiExternalLink className='mr-2' /> {/* Live link icon */}
                   Live
-                </button>
-                <button className='flex items-center rounded bg-neutral-700 px-4 py-2 text-white hover:bg-neutral-600'>
+                </a>
+                <a href={project.githubLink} target='_blank' rel='noopener noreferrer' className='flex items-center rounded bg-neutral-700 px-4 py-2 text-white hover:bg-neutral-600'>
                   <FiGithub className='mr-2' /> {/* GitHub icon */}
                   GitHub
-                </button>
+                </a>
               </div>
             </motion.div>
           </div>
