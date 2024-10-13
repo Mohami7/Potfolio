@@ -6,7 +6,7 @@ import ibnzohr from "../assets/projects/ibnzohr.png"
 import Ofppt from "../assets/projects/Ofppt.png"
 import Lmajd from "../assets/projects/Lmajd.png"
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Salut! 👋 Je suis un développeur Full Stack engagé, avec une expertise dans la création d'applications performantes et évolutives. Mon ambition est d'accompagner les entreprises vers le succès 💼 en développant des solutions sur-mesure et centrées sur l'utilisateur. Créatif, adaptable et déterminé, je suis prêt à transformer vos projets en réalité! 🚀`;
 
 export const ABOUT_TEXT = `Développeur Full Stack avec une maîtrise approfondie des technologies front-end et back-end, spécialisé dans la conception d'applications web et mobiles. Passionné par l'innovation technologique, je m'investis également dans l'optimisation des systèmes et la gestion des infrastructures, offrant ainsi des solutions robustes et évolutives.`;
 
